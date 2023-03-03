@@ -1,0 +1,26 @@
+.tab-list {
+  margin-right: 15px;
+}
+
+.display-text {
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+.active {
+  border-bottom: 2px solid #fec653;
+  color: #fec653;
+}
+
+@media screen and (max-width: 776px) {
+  .display-text {
+    font-size: 15px;
+  }
+  .tab-list {
+    margin-right: 5px;
+  }
+}
